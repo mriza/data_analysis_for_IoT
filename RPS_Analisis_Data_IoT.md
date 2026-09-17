@@ -42,7 +42,10 @@
 **Utama:**
 1. Hanes, D., et al. (2017). *IoT Fundamentals: Networking Technologies, Protocols, and Use Cases for the Internet of Things*. Cisco Press.
 2. Minteer, A. (2017). *Analytics for the Internet of Things (IoT)*. Packt Publishing Ltd.
+3. McKinney, W. (2022). *Python for Data Analysis: Data Wrangling with Pandas, NumPy, and Jupyter* (3rd ed.). O'Reilly Media.
+4. Fawcett, T., & Provost, F. (2013). *Data Science for Business*. O'Reilly Media.
 
 **Pendukung:**
-1. Modul Praktikum (Internal Politeknik) terkait Python Data Science & Grafana.
-2. Dokumentasi resmi pustaka Scikit-Learn, Pandas, InfluxDB, dan RabbitMQ MQTT.
+1. Dokumentasi resmi pustaka Python (Pandas, Scikit-Learn).
+2. Dokumentasi resmi infrastruktur IoT (InfluxDB, Grafana, Mosquitto, RabbitMQ, Ubuntu Server, VirtualBox).
+3. Modul Praktikum Internal (Data Analysis for IoT).

@@ -314,13 +314,11 @@ if __name__ == '__main__':
 
 ## 9. Referensi
 
-[1] Oracle, "VirtualBox 7.2 User Manual," [Online]. Tersedia: https://docs.oracle.com/en/virtualization/virtualbox/7.2/user/index.html
-[2] Oracle, "Virtual Networking," VirtualBox 7.2 User Manual, [Online]. Tersedia: https://docs.oracle.com/en/virtualization/virtualbox/7.2/user/networking.html
-[3] Canonical Ltd., "Ubuntu Server Documentation," [Online]. Tersedia: https://ubuntu.com/server/docs
-[4] Server World, "Ubuntu 24.04 LTS," [Online]. Tersedia: https://www.server-world.info/en/note?os=Ubuntu_24.04
-[5] Eclipse Foundation, "Mosquitto Documentation," [Online]. Tersedia: https://mosquitto.org/documentation/
-[6] VMware, "RabbitMQ Documentation," [Online]. Tersedia: https://www.rabbitmq.com/documentation.html
-[7] Eclipse Foundation, "Eclipse Paho MQTT Python client library," [Online]. Tersedia: https://eclipse.dev/paho/files/paho.mqtt.python/html/index.html
+[1] Oracle. (2024). *VirtualBox User Manual*. [Online]. Tersedia: https://docs.oracle.com/en/virtualization/virtualbox/
+[2] Canonical Ltd. (2024). *Ubuntu Server Documentation*. [Online]. Tersedia: https://ubuntu.com/server/docs
+[3] Eclipse Foundation. (2024). *Mosquitto Documentation*. [Online]. Tersedia: https://mosquitto.org/documentation/
+[4] RabbitMQ. (2024). *RabbitMQ Documentation*. [Online]. Tersedia: https://www.rabbitmq.com/documentation.html
+[5] Eclipse Foundation, "Eclipse Paho MQTT Python client library," [Online]. Tersedia: https://eclipse.dev/paho/files/paho.mqtt.python/html/index.html
 [8] Pika Project, "Pika Documentation," [Online]. Tersedia: https://pika.readthedocs.io/
 
 ---

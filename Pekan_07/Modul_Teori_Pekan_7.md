@@ -32,3 +32,4 @@ Sebuah peternakan modern meletakkan mikrofon pintar (*Edge Node*) di kandang bab
 
 ## 6. Referensi Spesifik
 - Warden, P., & Situnayake, D. (2019). *TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers*. O'Reilly Media.
+- Lihat `Daftar_Referensi_Lengkap.md` di direktori utama untuk referensi selengkapnya.

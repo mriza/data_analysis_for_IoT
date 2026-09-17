@@ -52,7 +52,8 @@ Ini murni *error* pembacaan voltase elektronika sensor (*Hard Outlier*). Jika *D
 2. Dalam rancang bangun sistem kendali pengereman otomatis (menggunakan *proximity sensor* jarak), apa bahaya fisik maut dari menggunakan ukuran perataan data *Moving Average* yang terlalu besar (misalnya mengambil rata-rata 100 pengukuran beruntun)?
 
 ## 6. Referensi Spesifik
-- Wes McKinney, "Python for Data Analysis", O'Reilly Media.
+- McKinney, W. (2022). *Python for Data Analysis: Data Wrangling with Pandas, NumPy, and Jupyter* (3rd ed.). O'Reilly Media.
 - Dokumentasi Pandas Resmi: 
   - Menangani data kosong: `pandas.DataFrame.fillna`, `pandas.DataFrame.interpolate`
   - Windowing operations (Rolling filter): `pandas.DataFrame.rolling`
+- Lihat `Daftar_Referensi_Lengkap.md` di direktori utama untuk referensi selengkapnya.
