@@ -1,23 +1,23 @@
 # Kuis Pekan 14: Integrasi End-to-End (PjBL)
 
-Jawablah pertanyaan-pertanyaan berikut dengan jelas dan ringkas!
+Jawablah pertanyaan-pertanyaan berikut dengan jelas, ringkas, dan berdasarkan penalaran analitik Anda!
 
-1. Apa yang dimaksud dengan integrasi sistem "End-to-End" dalam proyek arsitektur analitik IoT?
+1. Dalam arsitektur *End-to-End* IoT, seluruh komponen (*Broker MQTT, Script Python, InfluxDB, Grafana*) dituntut untuk beroperasi secara mandiri namun saling terhubung 24/7. Analisislah titik kerawanan utama (*Single Point of Failure*) dari arsitektur *pipeline* yang linier ini, dan apa yang terjadi pada *dashboard* jika *Script Python* sebagai jembatan (*Orchestrator*) tiba-tiba *crash* di tengah jalan!
 
-2. Pada arsitektur final proyek akhir, seluruh fungsi penerimaan, pembersihan, dan analisis data biasanya digabungkan ke dalam satu file pengendali utama. File pengendali alur otomatis ini sering disebut dengan istilah:
+2. Anda menggunakan pustaka `pickle` di Python untuk me-load model *Machine Learning* yang sudah dilatih sebelumnya ke dalam skrip `main_pipeline.py`. Jelaskan secara analitik mengapa melatih (*training*) ulang model kecerdasan buatan dari nol *setiap kali* aliran data sensor baru masuk adalah arsitektur yang sangat salah kaprah dan akan membunuh kinerja *server* Anda!
 
-3. Berdasarkan alur logika program terintegrasi, tugas pertama dari sistem setelah program dijalankan adalah melakukan **MQTT Subscribe**. Apa arti dari proses ini?
+3. Praktikum memandu Anda untuk merancang logika pemrosesan (*Cleaning & ML*) secara **On-the-fly** (langsung memproses saat data lewat). Bandingkan keunggulan respons waktu skenario *On-the-fly* ini dengan skenario *Batch Processing* (menunggu data terkumpul selama 1 jam baru diproses) untuk sistem keselamatan seperti pencegah kelebihan tekanan uap boiler!
 
-4. Setelah paket data diterima dari MQTT, langkah kritis selanjutnya pada blok *Data Cleaning & ML (On-the-fly)* adalah memeriksa kekosongan data. Mengapa hal ini harus dilakukan sebelum data diserahkan ke *Machine Learning*?
+4. Skrip *Orchestrator* (`main_pipeline.py`) Anda bertugas mendengarkan (Subscribe) data dari MQTT, memprediksi anomali dengan model ML, lalu mengirimkannya ke InfluxDB. Mengapa operasi pendeteksian anomali ini harus diletakkan *di tengah-tengah* pipa, dan bukannya membiarkan data masuk ke InfluxDB dulu baru kemudian Grafana yang bertugas mencari anomalinya?
 
-5. Dalam tahap implementasi integrasi sistem, jika Anda sudah berhasil melatih (men-*training*) sebuah model kecerdasan buatan (*Isolation Forest*) di *Jupyter Notebook* kemarin, bagaimana cara memasukkan kepintaran model tersebut ke dalam *script* `main_pipeline.py` yang berjalan saat ini?
+5. Hasil prediksi model *Isolation Forest* biasanya berupa nilai `1` (normal) dan `-1` (anomali). Dalam skema perancangan *database*, Anda diinstruksikan menyimpan angka `-1` ini bersama dengan kolom suhu dan kelembaban ke dalam InfluxDB. Analisislah keuntungan analitik jangka panjang (historis) dari tindakan menyimpan rekaman *log* hasil deteksi *error* (Label AI) secara permanen di basis data tersebut!
 
-6. Jika model AI *Isolation Forest* yang diintegrasikan dalam *pipeline* memproses suhu baru dan mengeluarkan nilai output **-1**, keputusan apa yang sebenarnya diambil oleh AI?
+6. Anda menata pengaturan di Grafana: "Jika field 'status_anomali' bernilai -1, maka kirim pesan ke Telegram". Secara arsitektur perangkat lunak (*software architecture*), evaluasi mengapa pembagian tugas antara Skrip Python (yang bertugas *mendeteksi* bahaya secara matematis) dan Grafana (yang bertugas *menyiarkan/alerting* bahaya) merupakan penerapan prinsip *Separation of Concerns* (Pemisahan Tugas) yang sangat brilian!
 
-7. Di lapisan arsitektur **Data Storage**, apa yang paling esensial untuk dikirimkan secara paralel bersama dengan data suhu dan kelembaban ke dalam *database Time-Series* (seperti InfluxDB)?
+7. Saat menjalankan skrip `main_pipeline.py` yang berjalan 24 jam nonstop di Ubuntu Server, *Data Engineer* sering menggunakan perintah `tmux` atau eksekusi *background* `nohup` alih-alih mengeksekusinya di terminal biasa. Jelaskan logika operasional jaringan (terkait sesi *remote SSH* Anda yang bisa putus kapan saja) di balik kewajiban menggunakan aplikasi-aplikasi manajemen latar belakang (*background manager*) tersebut!
 
-8. Mengapa penting untuk ikut menyimpan label status anomali ke dalam InfluxDB, dan tidak sekadar menampilkan peringatan sementara di layar *Terminal*?
+8. Selama *pipeline* beroperasi, sensor tiba-tiba kehabisan baterai dan mulai mengirim data `NaN` atau angka-angka sampah (*garbage text*) alih-alih angka suhu. Jika Anda tidak memasang mekanisme proteksi *Data Cleaning* (seperti `try-except` di Python atau pengecekan tipe data) sebelum data tersebut menyentuh algoritma ML, malapetaka program apa yang akan langsung mematikan seluruh aliran pipa data Anda pada detik itu juga?
 
-9. Dalam sistem peringatan dini (EWS) otomatis, bagaimana cara Grafana mengirim peringatan ke *smartphone* seorang manajer kebun saat kondisi anomali terdeteksi secara *live*?
+9. Pembangunan sistem terpadu (*End-to-End*) sangat bergantung pada stabilitas jaringan antar *container/service* (jika menggunakan *Docker* atau IP lokal). Apabila alamat IP dari InfluxDB berganti secara acak setelah *server restart*, analisislah kerepotan (*maintenance overhead*) apa yang harus Anda lakukan terhadap semua *Script Python* dan Grafana di dalam arsitektur yang masih menggunakan pendekatan "Alamat IP *Hardcoded*"!
 
-10. Seluruh konsep yang dikerjakan pada proyek akhir terpadu ini di dunia pendidikan dan industri dikenal dengan pendekatan "Project-Based Learning (PjBL)". Makna utama pendekatan ini bagi arsitektur IoT adalah:
+10. Sebagai manajer sistem IoT, saat melakukan uji coba akhir (*System Integration Testing*), Anda memalsukan (menyuntikkan secara manual) pesan anomali ekstrem dari MQTT untuk melihat apakah pesan Telegram benar-benar masuk ke HP Anda. Jelaskan fungsi filosofis dari tahapan pengujian dari ujung ke ujung (*End-to-End Testing*) ini sebelum sistem benar-benar dipasrahkan kepada petani di ladang!

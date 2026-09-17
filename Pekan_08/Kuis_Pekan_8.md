@@ -1,23 +1,23 @@
-# Kuis Pekan 8: Review Materi UTS (Evaluasi Tengah Semester)
+# Kuis Pekan 8: Evaluasi Tengah Semester (UTS) - Review Analitik Komprehensif
 
-Jawablah pertanyaan-pertanyaan berikut dengan jelas dan ringkas! Kuis ini bertujuan untuk menguji kesiapan Anda menghadapi Evaluasi Tengah Semester berdasarkan materi Pekan 1 hingga 7.
+Jawablah studi kasus komprehensif berikut dengan mengintegrasikan seluruh pemahaman Anda dari Pekan 1 hingga Pekan 7!
 
-1. Dalam dunia IoT, mengapa dataset fisik dari sensor lingkungan hampir selalu memiliki tingkat *noise* (fluktuasi bergerigi tajam) dan rentan terhadap *missing values* (data kosong)?
+1. Anda mendesain sistem IoT untuk tambak ikan nila yang berlokasi di daerah pelosok dengan sinyal internet yang sering mati. Analisislah mengapa meletakkan logika pengendali pompa oksigen murni di tingkat *Cloud Analytics* adalah keputusan desain yang sangat berbahaya bagi keselamatan ikan, dan bagaimana arsitektur *Edge Analytics* memecahkan kerentanan (*vulnerability*) tersebut!
 
-2. Ketika harus mengolah jutaan baris data sensor di perangkat dengan spesifikasi sangat rendah (misalnya Raspberry Pi model lama), pendekatan mana yang paling aman untuk mencegah *Out-of-Memory* (OOM) atau kepenuhan RAM?
+2. Ketika mengunduh data sensor cuaca mentah dari *Cloud*, Anda mendapati bahwa dari 10.000 baris data, terdapat sekitar 300 baris yang memiliki nilai suhu `NaN` secara acak. Jika Anda secara serampangan menghapus ke-300 baris tersebut (*drop missing values*), jelaskan secara detail kerusakan matematis apa yang akan dialami oleh struktur waktu (*time-series*) dataset Anda pada fase pemodelan *Machine Learning* nanti!
 
-3. Manakah pernyataan berikut yang **paling tepat** membedakan komputasi *Edge* dengan komputasi *Cloud*?
+3. Evaluasi efektivitas metode penambalan data (Imputasi). Jika sensor angin mati total selama 1 menit (karena *reboot*), versus mati total selama 7 hari penuh (karena badai merusak pemancar), mengapa menambal (*imputing*) kasus pertama sangat dianjurkan, namun memaksa menambal kasus kedua dengan *Forward Fill* berpotensi menghancurkan objektivitas analisis bisnis secara menyeluruh?
 
-4. Salah satu teknik pra-pemrosesan (*pre-processing*) untuk menangani data kosong pada kurva bergelombang natural (seperti suhu harian) adalah menarik garis diagonal yang proporsional di antara dua titik yang terputus. Teknik ini dikenal dengan nama:
+4. Saat memvisualisasikan data sensor kelembaban, garis tren terlihat sangat kasar dan dipenuhi gerigi-gerigi tajam (*electrical noise*). Anda menerapkan teknik *Moving Average* dengan ukuran *window* yang sangat besar (contoh: rata-rata 1000 data terakhir). Analisislah fenomena "*lagging*" (keterlambatan sinyal) apa yang secara fisik akan terlihat pada grafik tersebut dibandingkan dengan waktu nyata di dunia nyata!
 
-5. Pada saat menguji pengiriman pesan MQTT (*Message Queuing Telemetry Transport*), Anda menjalankan broker *Mosquitto*. Secara standar internasional (*default*), pada *port* berapakah *Mosquitto* bekerja?
+5. Dalam melakukan *Exploratory Data Analysis* (EDA) tingkat lanjut pada ratusan sensor secara bersamaan, matriks angka korelasi menjadi terlalu padat untuk dibaca manusia. Jelaskan secara konseptual bagaimana visualisasi **Heatmap** memecahkan masalah ini dan memandu seorang *Data Analyst* menemukan pasangan sensor yang bergerak berlawanan arah secara instan!
 
-6. Ketika membuat lingkungan virtual Python menggunakan perintah `python -m venv env_iot`, apa fungsi utama dari lingkungan virtual (*virtual environment*) tersebut?
+6. Anda memiliki sebuah model *Deep Learning* pengenal jenis gulma berukuran 50 MB, yang jelas tidak muat dimasukkan ke dalam RAM mikrokontroler murah. Jelaskan prinsip kerja teknologi **TinyML**, secara spesifik proses **Quantization**, yang secara ajaib mampu menekan ukuran model tersebut hingga menjadi di bawah 50 KB sehingga siap ditanam di mikrokontroler pinggir sawah!
 
-7. Anda memiliki sebuah *DataFrame Pandas* bernama `df_sensor`. Jika Anda ingin menemukan jumlah baris yang mengandung sel kosong (`NaN`) di setiap kolomnya, perintah yang tepat adalah:
+7. Saat menganalisis data kualitas air sungai (pH), penggunaan nilai **Rata-rata (Mean)** harian seringkali menjadi "kebohongan statistik" jika pada pukul 12 siang terjadi tumpahan limbah kimia asam pekat sesaat yang terekam sensor, sebelum air kembali netral. Buktikan secara nalar mengapa perhitungan **Median** (Nilai Tengah) tidak akan banyak berubah dan gagal membunyikan alarm darurat pencemaran, sedangkan *Mean* akan lebih bereaksi terhadap kasus *outlier* nyata ini!
 
-8. Dalam metode penentuan anomali statistik berbasis kuartil (IQR / *Interquartile Range*), sebuah titik suhu akan secara matematis dideklarasikan sebagai *Outlier* (data pencilan) apabila:
+8. Pada protokol MQTT, Mosquitto dan RabbitMQ memfasilitasi peran sebagai perantara (*Broker*). Jika *Publisher* (sensor) terus mengirim data namun skrip *Subscriber* Python (Dashboard) Anda mati atau mengalami *crash*, jelaskan secara teoritis nasib aliran pesan IoT tersebut di dalam infrastruktur *Broker* sebelum akhirnya dibaca atau dibuang!
 
-9. Keuntungan terbesar dari implementasi algoritma *Tiny Machine Learning* (TinyML) di bidang pertanian cerdas (*Smart Farming*) adalah:
+9. Untuk mendeteksi nilai tidak normal (*anomali*) dari sensor tanpa perlu menebak-nebak angka batasnya secara manual, *Data Engineer* modern menggunakan metode **Interquartile Range (IQR)**. Analisislah mengapa pendekatan berbasis penyebaran persentil data ini (kuartil) sangat kuat (*robust*) dalam memisahkan suhu kebun yang wajar dengan angka lonjakan palsu akibat korsleting perangkat!
 
-10. Jika hasil pemetaan relasi dua sensor menggunakan algoritma Korelasi Pearson menghasilkan angka **-0.95**, apa interpretasi logis dari kondisi fisik tersebut?
+10. Jika Anda diminta merekomendasikan tumpukan perangkat lunak (*software stack*) kepada perusahaan untuk keperluan eksplorasi dan pembersihan data sensor besar, mengapa kombinasi **Jupyter Notebook + Pandas + Matplotlib/Seaborn** selalu menjadi standar emas (industri) dibandingkan memproses CSV berukuran Gigabyte tersebut ke dalam Microsoft Excel?

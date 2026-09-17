@@ -1,23 +1,23 @@
 # Kuis Pekan 9: Paradigma Machine Learning vs Pemrograman Tradisional
 
-Jawablah pertanyaan-pertanyaan berikut dengan jelas dan ringkas!
+Jawablah pertanyaan-pertanyaan berikut dengan jelas, ringkas, dan berdasarkan penalaran analitik Anda!
 
-1. Perbedaan paling mendasar antara arsitektur **Pemrograman Tradisional** (Sistem Pakar) dengan **Machine Learning (ML)** adalah:
+1. Dalam membangun sistem otomasi penyiraman kebun kelapa sawit skala besar, seorang *programmer* tradisional mungkin akan menulis kode "*IF suhu > 35 AND kelembaban < 40 THEN siram*". Analisislah mengapa pendekatan logika *Hard-Coded Rules* (berbasis aturan baku) semacam ini akan gagal total dan tidak bisa berskala (*not scalable*) ketika jumlah parameter iklim yang memengaruhi pertumbuhan sawit bertambah menjadi 20 variabel yang saling berkaitan!
 
-2. Jika seorang pemrogram menuliskan kode program: `IF suhu > 35 AND kelembaban < 20 THEN status = 'BAHAYA KEKERINGAN'`, maka sistem ini dikategorikan sebagai:
+2. Paradigma *Machine Learning* membalik logika input-output komputer secara drastis. Jelaskan secara konseptual fase Pelatihan (*Training Phase*) di mana mesin menerima "Data Sensor Masa Lalu" beserta "Log Hasil Panen Historis", dan apa bentuk *output* final (yang dulunya ditulis oleh manusia) yang dilahirkan oleh mesin pada akhir fase ini!
 
-3. Salah satu alasan mengapa pertanian presisi modern tidak bisa lagi sekadar mengandalkan logika `IF-ELSE` tradisional adalah:
+3. Anda ditugaskan membangun sistem AI untuk memprediksi debit air saluran irigasi besok pagi. Dalam domain *Time-Series Forecasting*, algoritma membuat proyeksi ke masa depan dengan berasumsi pada sebuah hukum alam probabilistik. Jelaskan hukum asumsi dasar (terkait "pola masa lalu") yang menjadi fondasi beroperasinya seluruh algoritma *Forecasting*!
 
-4. Dalam analisis *time-series*, cabang spesifik dari *Machine Learning* yang berasumsi bahwa "Pola masa depan adalah perulangan dari pola di masa lalu" dan bertujuan menebak nilai numerik sensor di waktu yang akan datang disebut:
+4. Sistem *Predictive Maintenance* (Pemeliharaan Prediktif) di pabrik pemrosesan teh mendeteksi sinyal audio dan getaran dari bantalan poros (*bearing*) mesin penggiling. Bagaimana *Machine Learning* mampu mencegah ledakan pabrik atau kerugian puluhan juta Rupiah dengan cara menganalisis sinyal getaran tersebut jauh berhari-hari sebelum logamnya benar-benar patah?
 
-5. Jika sebuah algoritma dilatih menggunakan jutaan rekaman audio getaran mesin traktor di masa lalu untuk mampu menebak apakah transmisi mesin akan patah dalam 3 hari ke depan, sistem ini dinamakan:
+5. *Outlier* tunggal (seperti suhu melompat ke angka 100°C) mudah dideteksi menggunakan batas nilai rata-rata biasa. Namun, ada kalanya suhu menunjuk angka normal 28°C, kelembaban menunjuk normal 70%, namun kedua kondisi normal tersebut terjadi bersamaan di tengah badai hujan yang notabene merupakan fenomena alam yang aneh/mustahil. Mengapa algoritma deteksi batas (seperti Z-Score atau IQR) biasanya gagal menangkap *outlier multidimensi* semacam ini?
 
-6. Keuntungan utama dari penerapan *Predictive Maintenance* berbasis *Machine Learning* di industri agrikultur atau manufaktur adalah:
+6. Menghadapi anomali ganjil (multidimensi) seperti pada kasus nomor 5, analis data IoT industri sering mengandalkan algoritma canggih tipe *Unsupervised Learning* (seperti *Isolation Forest* atau *K-Means Clustering*). Jelaskan logika dasar mengapa pendekatan tanpa label ("belajar sendiri/mengelompokkan sendiri") ini lebih ahli mendeteksi "keganjilan" yang tidak pernah terpikirkan oleh *Data Engineer* sebelumnya!
 
-7. Ketika kita memiliki dataset anomali yang sangat rumit di mana semua angka tampaknya "normal" jika dilihat satu-satu (misal suhu normal, angin normal), namun ternyata kombinasi interaksi antar-angkanya tidak wajar (menyebabkan tanaman mati). Cabang *Machine Learning* yang paling cocok untuk secara matematis mengelompokkan keanehan ini tanpa pelabelan *benar/salah* dari manusia sebelumnya adalah:
+7. Kualitas model AI (Machine Learning) bergantung secara proporsional pada kualitas dan volume dataset pelatihannya (GIGO). Berikan penalaran analitik, mengapa implementasi *Machine Learning* yang sangat akurat untuk mendeteksi kecacatan daun tomat di dalam *Greenhouse* tertutup (hidroponik) kemungkinan besar akurasinya akan anjlok drastis jika model yang sama di-*deploy* ke kebun tomat konvensional (lahan terbuka / *open field*)!
 
-8. Fase komputasi di mana komputer dijejali oleh jutaan "Data Sensor Historis" beserta "Jawaban yang sudah terjadi" dan dibiarkan memeras pola komputasional secara terus menerus selama berjam-jam dinamakan fase:
+8. Terdapat dua jenis keluaran (*output*) Machine Learning yang umum: Klasifikasi (*Classification*) dan Regresi (*Regression*). Jika Anda membangun sistem pengingat panen otomatis, analisis mengapa menebak "Jumlah hari tersisa sebelum padi siap panen (misal: 14 hari)" disebut masalah Regresi, sedangkan mendeteksi citra drone untuk menyimpulkan "Padi Sehat / Padi Kena Hama" disebut masalah Klasifikasi!
 
-9. Mengapa melatih model *Machine Learning* untuk lahan pertanian terbuka (*open field*) memiliki tantangan akurasi yang lebih berat dibandingkan melatih model lengan robot las di dalam ruangan pabrik (*indoor*)?
+9. Saat algoritma prediktif (Forecasting) meramalkan suhu esok hari adalah 30°C, namun keesokan harinya sensor riil mencatat 32°C, maka terdapat penyimpangan (*error*) sebesar 2°C. Mengapa sangat krusial bagi seorang perancang IoT untuk terus menghitung besaran metrik *error* (seperti MAE atau RMSE) setiap harinya dari sistem yang sudah berjalan (di-*deploy*) di lapangan?
 
-10. Jika kita sudah melatih sebuah model *Forecasting* algoritma prediksi cuaca hari esok, bagaimana kita mengetahui secara matematis bahwa tebakan mesin tersebut akurat?
+10. *Machine Learning* telah menggantikan banyak pekerjaan pemrograman manual. Namun sebagai insinyur *IoT Data Analytics*, kemukakan satu skenario sistem keselamatan (*safety-critical system*, misal: proteksi kebocoran gas beracun) di industri agrikultur di mana penggunaan *Hard-Coded Rules (IF-ELSE)* kuno justru sangat diwajibkan, sementara penggunaan AI yang cerdas malah terlarang atau sangat dihindari secara regulasi!

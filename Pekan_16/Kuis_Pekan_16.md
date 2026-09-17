@@ -1,23 +1,23 @@
-# Kuis Pekan 16: Evaluasi Akhir Semester (UAS) & Review Komprehensif
+# Kuis Pekan 16: Evaluasi Akhir Semester (UAS) - Ujian Analitik Berbasis Kasus (HOTS)
 
-Jawablah pertanyaan-pertanyaan berikut dengan jelas dan ringkas! Kuis ini ditujukan untuk menguji pemahaman komprehensif Anda mengenai keseluruhan siklus proyek analitik IoT dalam rangka Evaluasi Akhir Semester (UAS).
+Jawablah studi kasus komprehensif berikut dengan mengintegrasikan seluruh pemahaman *Data Science*, Pemrograman Python, dan Arsitektur Jaringan IoT yang telah Anda pelajari!
 
-1. Pada pekan ke-16, luaran (*output*) utama yang dievaluasi sebagai syarat kelulusan mata kuliah berbasis *Outcome-Based Education* (OBE) ini adalah:
+1. **(Arsitektur Jaringan)** Sebuah perusahaan agrikultur besar meminta Anda merancang topologi komunikasi data untuk 5.000 sensor cerdas di perkebunannya. Analisislah keuntungan strategis dari penggunaan protokol **MQTT** (sebagai *Publish-Subscribe Broker*) dibandingkan HTTP *Request-Response* biasa, terutama saat menghadapi kondisi jaringan seluler (3G/4G) yang sering putus-nyambung (*lossy network*) di area pedalaman!
 
-2. Mengapa dalam kurikulum berbasis OBE (seperti pada mata kuliah ini), porsi nilai Evaluasi Akhir Semester (UAS) ditekankan secara akumulatif pada **penyelesaian proyek akhir** (berbobot sangat besar, misal 45%) alih-alih sekadar ujian tulis pilihan ganda biasa?
+2. **(Paradigma AI vs Sistem Pakar)** Direktur kebun meragukan usulan Anda menggunakan *Machine Learning* untuk mengatur jadwal penyiraman otomatis dan bersikeras agar Anda cukup menggunakan sistem *IF-ELSE* kuno. Rancanglah sebuah argumen teknis untuk meyakinkan beliau, mengapa aturan *IF-ELSE* (*Hard-Coded*) akan hancur berantakan ketika dihadapkan pada interaksi 15 variabel iklim ekstrem yang berubah tak terduga akibat pemanasan global!
 
-3. Dalam siklus lengkap proyek akhir Analitik IoT yang Anda buat, *Library* utama Python apa saja yang memegang peran sentral dalam tahapan *Data Pre-processing* dan pembentukan *Machine Learning*?
+3. **(Pra-pemrosesan Data)** Anda menemukan bahwa grafik data kecepatan angin memiliki 5 "lubang" berurutan (mati total selama 5 jam). Jika seorang rekan kerja menyarankan Anda untuk langsung menggunakan metode `Forward Fill` (*ffill*) pada pustaka Pandas untuk menambal ke-5 jam tersebut demi kejar tayang, evaluasi secara matematis dan logis, mengapa saran rekan Anda tersebut dapat berujung pada bencana prediksi cuaca!
 
-4. Apa peran krusial dari *File Orchestrator* (misalnya `main_pipeline.py`) yang dikumpulkan pada proyek UAS Anda?
+4. **(Algoritma Deteksi)** Pada kasus kualitas udara di kota besar, polusi PM2.5 yang normalnya hanya 30 tiba-tiba melambung tinggi hingga 350 akibat pembakaran pabrik ilegal. Jelaskan mengapa metode deteksi anomali berbasis sebaran persentil (**Interquartile Range / IQR**) terbukti jauh lebih kuat (*robust*) dalam memvonis lonjakan 350 tersebut sebagai *Outlier*, dibandingkan metode **Z-Score** yang menggunakan perhitungan Rata-rata (*Mean*)!
 
-5. Pada saat pengumpulan *Source Code* Proyek Akhir, praktik dokumentasi terbaik (*best practice*) yang wajib disertakan oleh *programmer* di dalam kode Python-nya adalah:
+5. **(Time-Series Database)** Bandingkan arsitektur **InfluxDB** dengan basis data relasional standar (MySQL/PostgreSQL). Jika Anda harus me-*render* grafik rentang waktu (*Time-Series*) suhu selama 1 tahun ke belakang (dengan jeda pengiriman tiap 1 detik), analisislah mengapa *query* MySQL akan membutuhkan waktu sangat lama (*loading* lambat) dibandingkan bahasa kueri *Flux* milik InfluxDB!
 
-6. Anda menggunakan modul `pickle` atau `joblib` dalam proyek akhir untuk meng-*export* model *Isolation Forest*. Apa jadinya jika Anda lupa menyertakan file model berakhiran `.pkl` tersebut dalam folder pengumpulan tugas UAS Anda?
+6. **(Edge vs Cloud Analytics)** Di sebuah pabrik penggergajian kayu pintar, getaran gergaji dipantau sensor akustik resolusi tinggi yang menghasilkan data sebesar 1 Gigabyte per menit. Analisislah mengapa mengirimkan *file* suara mentah tersebut ke *Cloud* untuk diolah oleh algoritma *Predictive Maintenance* adalah rancangan yang sia-sia, dan bagaimana *Tiny Machine Learning (TinyML)* pada *Edge Node* menjadi penyelamat arsitektur ini!
 
-7. Salah satu komponen wajib portofolio akhir adalah menampilkan keberhasilan pembuatan sistem *Alerting*. Dalam arsitektur yang Anda pelajari, komponen mana yang paling tepat ditugaskan untuk **mengeksekusi pengiriman pesan ke Telegram** (Webhook) kepada *End-User*?
+7. **(Integrasi End-to-End)** Dalam penulisan skrip perantara (*Orchestrator* / `main_pipeline.py`), posisi pengolahan data pembersihan (*Cleaning*) mutlak harus mendahului tahap *Machine Learning*, dan *Machine Learning* harus mendahului tahap penyimpanan ke *Database*. Analisis logika struktural aliran data ini: Apa yang terjadi jika penyimpanan *Database* diletakkan sebelum proses *Cleaning*?
 
-8. Dalam Laporan Proyek Akhir, bagian *Data Storytelling* mewajibkan mahasiswa untuk tidak hanya menampilkan metrik "Suhu = 35 Derajat", tetapi juga memberikan rekomendasi solusi. Hal ini sejalan dengan konsep:
+8. **(Visualisasi dan Actionable Insights)** Di ruang kontrol bendungan pintar, terdapat ratusan *dashboard* Grafana. Terdapat sebuah panel pengukur debit air bah berdesain *Gauge* besar berwarna hijau terang. Evaluasi konsep *Data Storytelling* dan *Visibilitas Operasional* pada panel tersebut: Mengapa warna panel tersebut harus seketika berubah menjadi **Merah Menyala** dan membunyikan sirine (*Webhook Telegram*) ketika ambang batas keselamatan dilanggar?
 
-9. Apa fungsi utama *Time-Series Database* (InfluxDB) dalam arsitektur komprehensif proyek akhir IoT dibandingkan dengan menyimpan hasil akhir ke dalam file teks (CSV/TXT) biasa secara terus-menerus?
+9. **(Unsupervised Learning)** Terdapat jenis *Outlier* multidimensi (misal: suhu 25°C dan kelembaban 80% adalah normal secara terpisah, namun mustahil terjadi bersamaan di padang pasir pada siang bolong). Jelaskan secara konsep mengapa algoritma *Unsupervised Learning* (seperti **Isolation Forest**) secara inheren jauh lebih cerdas mendeteksi keganjilan relasional seperti ini dibandingkan aturan matematika statistika manual!
 
-10. Ketika mengevaluasi *Portofolio OBE* di pekan 16, jika ada pertanyaan *"Apakah solusi IoT yang dibangun efisien dalam mengkonsumsi sumber daya memori komputer saat memproses data berjumlah masif?"*, jawaban teoritis terbaik yang menunjukkan penguasaan materi *Edge Analytics* Anda adalah:
+10. **(Portofolio dan Kode Etik Engineering)** Anda membangun sistem *Early Warning System* untuk memprediksi tanah longsor berbasis sensor kelembaban tanah dengan akurasi model AI sebesar 95%. Secara etika keteknikan (*Engineering Ethics*), analisislah mengapa Anda tetap wajib merancang skenario terburuk (*Fallback Procedure*)—seperti alarm manual berbahan mekanis/analog—dan tidak boleh menggantungkan seratus persen nyawa penduduk pada prediksi kecerdasan buatan Anda tersebut!
