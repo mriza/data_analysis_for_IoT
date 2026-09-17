@@ -65,4 +65,4 @@ Ini murni *error* pembacaan voltase elektronika sensor (*Hard Outlier*). Jika *D
 - Dokumentasi Pandas Resmi:  
 - Menangani data kosong: `pandas.DataFrame.fillna`, `pandas.DataFrame.interpolate`  
 - Windowing operations (Rolling filter): `pandas.DataFrame.rolling`  
-- Lihat `Daftar_Referensi_Lengkap.md` di direktori utama untuk referensi selengkapnya.  
+- Lihat `Referensi/Daftar_Referensi_Lengkap.md` untuk referensi selengkapnya.  

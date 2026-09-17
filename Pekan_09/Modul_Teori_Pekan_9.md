@@ -49,4 +49,4 @@ Sensor getaran (Vibrasi) pada roda gigi traktor bajak pintar dipantau setiap det
 
 ## 6. Referensi Spesifik
 - Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press. (ISBN-13: 978-0262035613). (Membahas filosofi pemodelan data dari data mentah).  
-- Lihat `Daftar_Referensi_Lengkap.md` di direktori utama untuk referensi selengkapnya.  
+- Lihat `Referensi/Daftar_Referensi_Lengkap.md` untuk referensi selengkapnya.  

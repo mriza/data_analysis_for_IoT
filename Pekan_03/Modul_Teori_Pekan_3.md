@@ -43,4 +43,4 @@ Mengapa data time-series IoT sulit diolah?
 
 ## 6. Referensi Spesifik
 - Minteer, A. (2017). *Analytics for the Internet of Things (IoT)*. (Bab: Exploring IoT Data). Packt Publishing Ltd. (ISBN-13: 978-1787120730)  
-- Lihat `Daftar_Referensi_Lengkap.md` di direktori utama untuk referensi selengkapnya.  
+- Lihat `Referensi/Daftar_Referensi_Lengkap.md` untuk referensi selengkapnya.  
