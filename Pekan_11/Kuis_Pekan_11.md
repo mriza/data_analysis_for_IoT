@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Kuis Pekan 11: Visualisasi Data IoT & Konsep Time-Series Database"
+---
+
 # Kuis Pekan 11: Visualisasi Data IoT & Konsep Time-Series Database
 
 Jawablah pertanyaan-pertanyaan berikut dengan jelas, ringkas, dan berdasarkan penalaran analitik Anda!

@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Materi Kuliah Pekan 3: Anatomi dan Karakteristik Data Time-Series"
+---
+
 # Materi Kuliah Pekan 3: Anatomi dan Karakteristik Data Time-Series
 
 ## 1. Tujuan Pembelajaran Khusus

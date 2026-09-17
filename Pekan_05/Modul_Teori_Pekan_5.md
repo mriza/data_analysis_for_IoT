@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Materi Kuliah Pekan 5: Statistik Deskriptif dan Pra-pemrosesan Data (Pre-processing)"
+---
+
 # Materi Kuliah Pekan 5: Statistik Deskriptif dan Pra-pemrosesan Data (Pre-processing)
 
 ## 1. Tujuan Pembelajaran Khusus

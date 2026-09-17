@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Kuis Pekan 10: Pemodelan ML (Prediksi dan Klasifikasi Anomali)"
+---
+
 # Kuis Pekan 10: Pemodelan ML (Prediksi dan Klasifikasi Anomali)
 
 Jawablah pertanyaan-pertanyaan berikut dengan jelas, ringkas, dan berdasarkan penalaran analitik Anda!

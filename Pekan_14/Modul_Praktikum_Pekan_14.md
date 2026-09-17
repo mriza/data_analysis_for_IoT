@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Materi Praktikum Pekan 14: Integrasi End-to-End (PjBL)"
+---
+
 # Materi Praktikum Pekan 14: Integrasi End-to-End (PjBL)
 
 ## MODUL 14: Integrasi End-to-End (PjBL)

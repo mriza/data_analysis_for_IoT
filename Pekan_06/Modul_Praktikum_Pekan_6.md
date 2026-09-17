@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Materi Praktikum Pekan 6: Data Preprocessing (Cleaning & Smoothing)"
+---
+
 # Materi Praktikum Pekan 6: Data Preprocessing (Cleaning & Smoothing)
 
 ## 1. Tujuan Praktikum

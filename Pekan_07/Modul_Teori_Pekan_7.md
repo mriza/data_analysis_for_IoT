@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Materi Kuliah Pekan 7: Edge Analytics dan Komputasi Resource-Constrained"
+---
+
 # Materi Kuliah Pekan 7: Edge Analytics dan Komputasi Resource-Constrained
 
 ## 1. Tujuan Pembelajaran Khusus

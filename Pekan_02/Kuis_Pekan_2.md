@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Kuis Pekan 2: Instalasi dan Konfigurasi Message Broker"
+---
+
 # Kuis Pekan 2: Instalasi dan Konfigurasi Message Broker
 
 Jawablah pertanyaan-pertanyaan berikut dengan jelas, ringkas, dan berdasarkan penalaran analitik Anda!

@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Kontrak Perkuliahan"
+---
+
 # Kontrak Perkuliahan
 
 **Mata Kuliah:** Analisis Data untuk IoT

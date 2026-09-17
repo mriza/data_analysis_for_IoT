@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Kuis Pekan 15: Presentasi Hasil dan Demonstrasi Proyek Akhir"
+---
+
 # Kuis Pekan 15: Presentasi Hasil dan Demonstrasi Proyek Akhir
 
 Jawablah pertanyaan-pertanyaan studi kasus komprehensif berikut dengan mengintegrasikan seluruh pemahaman *Data Storytelling* dan Arsitektur Sistem Anda!

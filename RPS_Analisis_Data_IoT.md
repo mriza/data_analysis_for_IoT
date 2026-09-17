@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Rencana Pembelajaran Semester (RPS)"
+---
+
 # Rencana Pembelajaran Semester (RPS)
 **Mata Kuliah:** Analisis Data untuk IoT
 **Program Studi:** Teknologi Rekayasa Komputer (TRK), Politeknik Pertanian Negeri Payakumbuh

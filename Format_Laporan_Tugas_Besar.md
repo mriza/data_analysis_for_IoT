@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "STANDAR FORMAT LAPORAN TUGAS BESAR (PROYEK AKHIR)"
+---
+
 # STANDAR FORMAT LAPORAN TUGAS BESAR (PROYEK AKHIR)
 **Mata Kuliah:** Analisis Data untuk IoT  
 **Program Studi:** Teknologi Rekayasa Komputer (TRK)  

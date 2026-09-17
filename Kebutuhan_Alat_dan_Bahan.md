@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Form Kebutuhan Alat dan Bahan Praktikum"
+---
+
 # Form Kebutuhan Alat dan Bahan Praktikum
 
 | | |

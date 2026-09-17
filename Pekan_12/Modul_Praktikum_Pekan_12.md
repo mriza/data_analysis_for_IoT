@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Materi Praktikum Pekan 12: InfluxDB & Grafana"
+---
+
 # Materi Praktikum Pekan 12: InfluxDB & Grafana
 
 ## MODUL 12: Pengenalan Time-Series Database (InfluxDB)

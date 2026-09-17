@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Materi Praktikum Pekan 10: Pemodelan ML (Prediksi dan Klasifikasi Anomali)"
+---
+
 # Materi Praktikum Pekan 10: Pemodelan ML (Prediksi dan Klasifikasi Anomali)
 
 ## 1. Tujuan Praktikum

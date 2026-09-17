@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Materi Praktikum Pekan 7: Praktik Edge Scripting (Efisiensi Memori)"
+---
+
 # Materi Praktikum Pekan 7: Praktik Edge Scripting (Efisiensi Memori)
 
 ## 1. Tujuan Praktikum

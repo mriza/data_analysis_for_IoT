@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Pekan 15: Presentasi Hasil dan Demonstrasi Proyek Akhir"
+---
+
 # Pekan 15: Presentasi Hasil dan Demonstrasi Proyek Akhir
 
 ## Live Demo Proyek Akhir

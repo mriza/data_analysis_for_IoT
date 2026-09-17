@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Kuis Pekan 8: Evaluasi Tengah Semester (UTS) - Review Analitik Komprehensif"
+---
+
 # Kuis Pekan 8: Evaluasi Tengah Semester (UTS) - Review Analitik Komprehensif
 
 Jawablah studi kasus komprehensif berikut dengan mengintegrasikan seluruh pemahaman Anda dari Pekan 1 hingga Pekan 7!

@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Distribusi Tugas Analisis Data IoT"
+---
+
 > **JURUSAN : Rekayasa Pertanian dan Komputer**
 >
 > **PROGRAM STUDI : Teknologi Rekayasa Komputer**

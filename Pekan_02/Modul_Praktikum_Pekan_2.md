@@ -4,7 +4,9 @@ semester: 5
 dosen: 
   - "Mohammad Riza Nurtam"
   - "Ega Evinda Putri"
+title: "Modul Praktikum Pekan 2: Instalasi dan Konfigurasi Message Broker"
 ---
+
 # Modul Praktikum Pekan 2: Instalasi dan Konfigurasi Message Broker
 
 ## Tujuan Praktikum

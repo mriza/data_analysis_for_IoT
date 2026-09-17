@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Materi Teori Pekan 11: Visualisasi Data IoT & Konsep Time-Series Database"
+---
+
 # Materi Teori Pekan 11: Visualisasi Data IoT & Konsep Time-Series Database
 
 ## Prinsip UI/UX dalam Desain Dashboard Industri

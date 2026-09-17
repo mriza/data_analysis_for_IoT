@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Data Analysis for IoT"
+---
+
 # Data Analysis for IoT
 Repositori ini berisi materi lengkap perkuliahan, modul praktikum, dan kuis untuk mata kuliah **Data Analysis for IoT**.
 Materi disusun untuk 16 pekan pertemuan (termasuk UTS dan UAS), mencakup:

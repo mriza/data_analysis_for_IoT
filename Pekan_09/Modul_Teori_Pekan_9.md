@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Materi Kuliah Pekan 9: Paradigma Machine Learning vs Pemrograman Tradisional"
+---
+
 # Materi Kuliah Pekan 9: Paradigma Machine Learning vs Pemrograman Tradisional
 
 ## 1. Tujuan Pembelajaran Khusus

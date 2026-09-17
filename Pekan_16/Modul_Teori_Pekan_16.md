@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Pekan 16: Evaluasi Akhir Semester (UAS)"
+---
+
 # Pekan 16: Evaluasi Akhir Semester (UAS)
 
 ## Pengumpulan Proyek Akhir

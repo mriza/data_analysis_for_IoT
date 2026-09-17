@@ -4,6 +4,7 @@ semester: 5
 dosen: 
   - "Mohammad Riza Nurtam"
   - "Ega Evinda Putri"
+title: "Modul Praktikum Pekan 3: Pengenalan, Pemrosesan, dan Karakteristik Data Time-Series"
 ---
 
 # Modul Praktikum Pekan 3: Pengenalan, Pemrosesan, dan Karakteristik Data Time-Series

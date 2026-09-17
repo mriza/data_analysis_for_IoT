@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Daftar Referensi Lengkap: Data Analysis for IoT"
+---
+
 # Daftar Referensi Lengkap: Data Analysis for IoT
 
 Berikut adalah kompilasi seluruh referensi (Buku teks, Publikasi, dan Dokumentasi Resmi) yang digunakan di seluruh modul teori, praktikum, dan Rencana Pembelajaran Semester (RPS) pada mata kuliah **Data Analysis for IoT**.

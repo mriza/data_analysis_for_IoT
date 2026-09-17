@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Kurikulum Berbasis OBE & ACM: Analisis Data untuk IoT"
+---
+
 # Kurikulum Berbasis OBE & ACM: Analisis Data untuk IoT
 
 **Program Studi:** Teknologi Rekayasa Komputer (TRK)

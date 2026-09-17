@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Materi Kuliah Pekan 1: Pengantar Analisis Data untuk IoT"
+---
+
 # Materi Kuliah Pekan 1: Pengantar Analisis Data untuk IoT
 
 ## 1. Tujuan Pembelajaran Khusus

@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Kisi-kisi Soal Ujian"
+---
+
 # Kisi-kisi Soal Ujian
 **Mata Kuliah:** Analisis Data untuk IoT
 **Program Studi:** Teknologi Rekayasa Komputer (TRK), Politeknik Pertanian Negeri Payakumbuh

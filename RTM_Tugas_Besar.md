@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "RENCANA TUGAS MAHASISWA (RTM) - PROYEK AKHIR (TUGAS BESAR)"
+---
+
 # RENCANA TUGAS MAHASISWA (RTM) - PROYEK AKHIR (TUGAS BESAR)
 **Mata Kuliah:** Analisis Data untuk IoT (Semester 5)
 **Program Studi:** Teknologi Rekayasa Komputer (TRK)

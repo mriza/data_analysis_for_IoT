@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Materi Teori Pekan 13: Arsitektur Sistem Terpadu & Proyek Akhir"
+---
+
 # Materi Teori Pekan 13: Arsitektur Sistem Terpadu & Proyek Akhir
 
 ## Review Metodologi Proyek Enterprise

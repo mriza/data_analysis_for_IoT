@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Kuis Pekan 5: Statistik Deskriptif dan Pra-pemrosesan Data (Pre-processing)"
+---
+
 # Kuis Pekan 5: Statistik Deskriptif dan Pra-pemrosesan Data (Pre-processing)
 
 Jawablah pertanyaan-pertanyaan berikut dengan jelas, ringkas, dan berdasarkan penalaran analitik Anda!

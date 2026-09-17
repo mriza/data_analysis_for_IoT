@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "TEMPLATE PORTOFOLIO EVALUASI MATA KULIAH (STANDAR OBE)"
+---
+
 # TEMPLATE PORTOFOLIO EVALUASI MATA KULIAH (STANDAR OBE)
 **Mata Kuliah:** Analisis Data untuk IoT (Semester 5)  
 **Tahun Akademik:** 20... / 20...  

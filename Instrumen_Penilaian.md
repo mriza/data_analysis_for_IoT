@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "INSTRUMEN PENILAIAN"
+---
+
 # INSTRUMEN PENILAIAN
 **Mata Kuliah:** Analisis Data untuk IoT (Semester 5)
 **Dosen Pengampu:** Mohammad Riza Nurtam (Praktikum / Penanggung Jawab) & Ega Evinda Putri (Teori)

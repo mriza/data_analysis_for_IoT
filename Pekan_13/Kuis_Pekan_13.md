@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Kuis Pekan 13: Arsitektur Sistem Terpadu & Proyek Akhir"
+---
+
 # Kuis Pekan 13: Arsitektur Sistem Terpadu & Proyek Akhir
 
 Jawablah pertanyaan-pertanyaan berikut dengan jelas, ringkas, dan berdasarkan penalaran analitik Anda!

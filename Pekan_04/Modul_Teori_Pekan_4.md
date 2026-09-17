@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Teori Pekan 4: Membaca Data & Exploratory Data Analysis (EDA)"
+---
+
 # Teori Pekan 4: Membaca Data & Exploratory Data Analysis (EDA)
 
 ## 1. Apa itu Exploratory Data Analysis (EDA)?

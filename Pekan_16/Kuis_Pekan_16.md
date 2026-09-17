@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Kuis Pekan 16: Evaluasi Akhir Semester (UAS) - Ujian Analitik Berbasis Kasus (HOTS)"
+---
+
 # Kuis Pekan 16: Evaluasi Akhir Semester (UAS) - Ujian Analitik Berbasis Kasus (HOTS)
 
 Jawablah studi kasus komprehensif berikut dengan mengintegrasikan seluruh pemahaman *Data Science*, Pemrograman Python, dan Arsitektur Jaringan IoT yang telah Anda pelajari!

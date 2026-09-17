@@ -1,3 +1,12 @@
+---
+mata_kuliah: "Analisis Data untuk IoT"
+semester: 5
+dosen: 
+  - "Mohammad Riza Nurtam"
+  - "Ega Evinda Putri"
+title: "Pekan 8: Evaluasi Tengah Semester (UTS) (Praktikum)"
+---
+
 # Pekan 8: Evaluasi Tengah Semester (UTS) (Praktikum)
 
 ## MODUL 8: Ujian Tengah Semester (Praktik Lab)
