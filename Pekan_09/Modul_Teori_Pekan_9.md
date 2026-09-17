@@ -39,5 +39,5 @@ Sensor getaran (Vibrasi) pada roda gigi traktor bajak pintar dipantau setiap det
 2. Jika mesin bisa memprediksi masa depan, sebutkan minimal 2 metrik (cara hitung) matematis untuk menguji "Seberapa tepat tebakan mesin itu terhadap kenyataan sebenarnya"?
 
 ## 6. Referensi Spesifik
-- Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press. (Membahas filosofi pemodelan data dari data mentah).
+- Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press. (ISBN-13: 978-0262035613). (Membahas filosofi pemodelan data dari data mentah).
 - Lihat `Daftar_Referensi_Lengkap.md` di direktori utama untuk referensi selengkapnya.

@@ -33,5 +33,5 @@ Mengapa data time-series IoT sulit diolah?
 2. Jika sebuah data suhu mengalami "lubang" (*missing values*) selama 2 detik versus selama 2 hari, apakah teknik penambalan (*imputation*) yang sebaiknya digunakan sama? Mengapa?
 
 ## 6. Referensi Spesifik
-- Minteer, A. (2017). *Analytics for the Internet of Things (IoT)*. (Bab: Exploring IoT Data). Packt Publishing Ltd.
+- Minteer, A. (2017). *Analytics for the Internet of Things (IoT)*. (Bab: Exploring IoT Data). Packt Publishing Ltd. (ISBN-13: 978-1787120730)
 - Lihat `Daftar_Referensi_Lengkap.md` di direktori utama untuk referensi selengkapnya.
