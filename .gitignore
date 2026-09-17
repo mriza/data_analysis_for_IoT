@@ -1,2 +1,6 @@
-Analytics for the Internet of Things (IoT) _ intelligent -- Andrew Minteer -- 1, 2017 -- Packt Publishing - ebooks Account -- isbn13 9781787120730 -- 9f2a55db1236f995dcd9392acbc82910 -- Anna’s Archive-1.pdf
-IoT fundamentals _ networking technologies, protocols, and -- David Hanes, Gonzalo Salgueiro, Patrick Grossetete, Robert -- 1st, First Edition, US, -- isbn13 9789386873743 -- 0eb67528b41326f57dd20e1d03e45601 -- Anna’s Archive-1.pdf
+# Mengabaikan file referensi (buku digital/dokumen)
+Referensi/*.pdf
+Referensi/*.doc
+Referensi/*.docx
+Referensi/*.epub
+Referensi/*.mobi
