@@ -94,13 +94,13 @@ Evaluasi tidak hanya mengukur kemampuan kognitif, tetapi juga *skill* psikomotor
 ---
 
 ## 8. Daftar Referensi
-**Referensi Utama:**
-1. Hanes, D., et al. (2017). *IoT Fundamentals: Networking Technologies, Protocols, and Use Cases for the Internet of Things*. Cisco Press. (ISBN-13: 978-1587144561)
-2. Minteer, A. (2017). *Analytics for the Internet of Things (IoT)*. Packt Publishing Ltd. (ISBN-13: 978-1787120730)
-3. McKinney, W. (2022). *Python for Data Analysis: Data Wrangling with Pandas, NumPy, and Jupyter* (3rd ed.). O'Reilly Media. (ISBN-13: 978-1098104030)
-4. Fawcett, T., & Provost, F. (2013). *Data Science for Business*. O'Reilly Media. (ISBN-13: 978-1449361327)
-5. ACM/IEEE-CS. (2020). *Computing Curricula 2020: Paradigms for Global Computing Education*. (ISBN-13: 978-1450390804)
+**Referensi Utama:**  
+1. Hanes, D., et al. (2017). *IoT Fundamentals: Networking Technologies, Protocols, and Use Cases for the Internet of Things*. Cisco Press. (ISBN-13: 978-1587144561)  
+2. Minteer, A. (2017). *Analytics for the Internet of Things (IoT)*. Packt Publishing Ltd. (ISBN-13: 978-1787120730)  
+3. McKinney, W. (2022). *Python for Data Analysis: Data Wrangling with Pandas, NumPy, and Jupyter* (3rd ed.). O'Reilly Media. (ISBN-13: 978-1098104030)  
+4. Fawcett, T., & Provost, F. (2013). *Data Science for Business*. O'Reilly Media. (ISBN-13: 978-1449361327)  
+5. ACM/IEEE-CS. (2020). *Computing Curricula 2020: Paradigms for Global Computing Education*. (ISBN-13: 978-1450390804)  
 
-**Referensi Pendukung:**
-1. Artikel Jurnal/Prosiding terbaru terkait implementasi *IoT Analytics* pada *Smart Agriculture*.
-2. Dokumentasi resmi infrastruktur IoT & Data Science (Scikit-Learn, Pandas, InfluxDB, Grafana, Mosquitto, RabbitMQ).
+**Referensi Pendukung:**  
+1. Artikel Jurnal/Prosiding terbaru terkait implementasi *IoT Analytics* pada *Smart Agriculture*.  
+2. Dokumentasi resmi infrastruktur IoT & Data Science (Scikit-Learn, Pandas, InfluxDB, Grafana, Mosquitto, RabbitMQ).  

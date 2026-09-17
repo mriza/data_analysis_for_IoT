@@ -49,5 +49,5 @@ Alih-alih mengirimkan nilai kelembaban tanah setiap 1 detik ke server Cloud di J
 2. Bagaimana cara membedakan apakah nilai suhu yang melonjak tiba-tiba adalah "kebakaran" atau sekadar "sensor rusak karena kepanasan"?
 
 ## 6. Referensi Spesifik
-- Hanes, D., et al. (2017). *IoT Fundamentals: Networking Technologies, Protocols, and Use Cases for the Internet of Things*. Cisco Press. (ISBN-13: 978-1587144561). (Bab: Data Analytics for IoT)
-- Lihat `Daftar_Referensi_Lengkap.md` di direktori utama untuk referensi selengkapnya.
+- Hanes, D., et al. (2017). *IoT Fundamentals: Networking Technologies, Protocols, and Use Cases for the Internet of Things*. Cisco Press. (ISBN-13: 978-1587144561). (Bab: Data Analytics for IoT)  
+- Lihat `Daftar_Referensi_Lengkap.md` di direktori utama untuk referensi selengkapnya.  

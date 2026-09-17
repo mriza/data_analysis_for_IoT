@@ -316,14 +316,14 @@ if __name__ == '__main__':
 
 ## 9. Referensi
 
-[1] Oracle. (2024). *VirtualBox User Manual*. [Online]. Tersedia: https://docs.oracle.com/en/virtualization/virtualbox/
-[2] Canonical Ltd. (2024). *Ubuntu Server Documentation*. [Online]. Tersedia: https://ubuntu.com/server/docs
-[3] Eclipse Foundation. (2024). *Mosquitto Documentation*. [Online]. Tersedia: https://mosquitto.org/documentation/
-[4] RabbitMQ. (2024). *RabbitMQ Documentation*. [Online]. Tersedia: https://www.rabbitmq.com/documentation.html
-[5] Eclipse Foundation, "Eclipse Paho MQTT Python client library," [Online]. Tersedia: https://eclipse.dev/paho/files/paho.mqtt.python/html/index.html
-[8] Pika Project, "Pika Documentation," [Online]. Tersedia: https://pika.readthedocs.io/
+[1] Oracle. (2024). *VirtualBox User Manual*. [Online]. Tersedia: https://docs.oracle.com/en/virtualization/virtualbox/  
+[2] Canonical Ltd. (2024). *Ubuntu Server Documentation*. [Online]. Tersedia: https://ubuntu.com/server/docs  
+[3] Eclipse Foundation. (2024). *Mosquitto Documentation*. [Online]. Tersedia: https://mosquitto.org/documentation/  
+[4] RabbitMQ. (2024). *RabbitMQ Documentation*. [Online]. Tersedia: https://www.rabbitmq.com/documentation.html  
+[5] Eclipse Foundation, "Eclipse Paho MQTT Python client library," [Online]. Tersedia: https://eclipse.dev/paho/files/paho.mqtt.python/html/index.html  
+[8] Pika Project, "Pika Documentation," [Online]. Tersedia: https://pika.readthedocs.io/  
 
----
+---  
 
 ## Lampiran: Daftar Mirror Lokal Indonesia untuk Ubuntu 24.04
 

@@ -269,8 +269,8 @@ jupyter nbconvert --to pdf nama_file_anda.ipynb
 ---
 
 ## 9. Referensi
-[1] Fawcett, T., & Provost, F. (2013). *Data Science for Business*. O'Reilly Media. (ISBN-13: 978-1449361327)
-[2] Python Software Foundation, "Python Documentation," [Online]. Tersedia: https://docs.python.org/
-[3] Google, "Google Colaboratory," [Online]. Tersedia: https://colab.research.google.com/
-[4] Jupyter Project, "Project Jupyter Documentation," [Online]. Tersedia: https://jupyter.org/documentation
-[5] Pandas Development Team, "Time series / date functionality," [Online]. Tersedia: https://pandas.pydata.org/docs/
+[1] Fawcett, T., & Provost, F. (2013). *Data Science for Business*. O'Reilly Media. (ISBN-13: 978-1449361327)  
+[2] Python Software Foundation, "Python Documentation," [Online]. Tersedia: https://docs.python.org/  
+[3] Google, "Google Colaboratory," [Online]. Tersedia: https://colab.research.google.com/  
+[4] Jupyter Project, "Project Jupyter Documentation," [Online]. Tersedia: https://jupyter.org/documentation  
+[5] Pandas Development Team, "Time series / date functionality," [Online]. Tersedia: https://pandas.pydata.org/docs/  

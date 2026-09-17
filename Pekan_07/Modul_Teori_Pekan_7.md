@@ -40,5 +40,5 @@ Sebuah peternakan modern meletakkan mikrofon pintar (*Edge Node*) di kandang bab
 2. Menurut Anda, data jenis apa di sektor pertanian yang HARUS dikirim ke *Cloud*, dan data apa yang CUKUP dieksekusi di *Edge*?
 
 ## 6. Referensi Spesifik
-- Warden, P., & Situnayake, D. (2019). *TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers*. O'Reilly Media. (ISBN-13: 978-1492052043)
-- Lihat `Daftar_Referensi_Lengkap.md` di direktori utama untuk referensi selengkapnya.
+- Warden, P., & Situnayake, D. (2019). *TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers*. O'Reilly Media. (ISBN-13: 978-1492052043)  
+- Lihat `Daftar_Referensi_Lengkap.md` di direktori utama untuk referensi selengkapnya.  

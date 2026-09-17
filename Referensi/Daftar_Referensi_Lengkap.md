@@ -9,7 +9,7 @@ title: "Daftar Referensi Lengkap: Data Analysis for IoT"
 
 # Daftar Referensi Lengkap: Data Analysis for IoT
 
-Berikut adalah kompilasi seluruh referensi (Buku teks, Publikasi, dan Dokumentasi Resmi) yang digunakan di seluruh modul teori, praktikum, dan Rencana Pembelajaran Semester (RPS) pada mata kuliah **Data Analysis for IoT**.
+Berikut adalah kompilasi seluruh referensi (Buku teks, Publikasi, dan Dokumentasi Resmi) yang digunakan di seluruh modul teori, praktikum, dan Rencana Pembelajaran Semester (RPS) pada mata kuliah **Data Analysis for IoT**.  
 
 ## 1. Buku Teks & Publikasi Akademik Utama
 1. Hanes, D., Salgueiro, G., Grossetete, P., Barton, R., & Henry, J. (2017). *IoT Fundamentals: Networking Technologies, Protocols, and Use Cases for the Internet of Things*. Cisco Press. (ISBN-13: 978-1587144561)

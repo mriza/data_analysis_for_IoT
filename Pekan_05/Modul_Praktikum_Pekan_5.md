@@ -107,15 +107,15 @@ plt.plot(df.index[70:110], df['suhu_ffill'][70:110], label='Hasil Forward-Fill (
 # Tampilkan hasil Interpolasi
 plt.plot(df.index[70:110], df['suhu_interpolated'][70:110], label='Hasil Interpolasi (Miring Lurus)', linestyle='-', marker='x')
 # Tampilkan data kotor asli sebagai referensi dasar
-plt.plot(df.index[70:110], df['suhu_no_outlier'][70:110], label='Asli (Berlubang)', marker='s', color='black')
+plt.plot(df.index[70:110], df['suhu_no_outlier'][70:110], label='Asli (Berlubang)', marker='s', color='black')  
 
-plt.title("Langkah 3: Zoom In - Membandingkan Akurasi Metode Imputasi")
-plt.legend()
-plt.grid(True)
-plt.show()
-```
+plt.title("Langkah 3: Zoom In - Membandingkan Akurasi Metode Imputasi")  
+plt.legend()  
+plt.grid(True)  
+plt.show()  
+```  
 
-*Analisis Hasil Visual:* Coba perhatikan baik-baik. Interpolasi menarik garis lurus yang jauh lebih natural menjembatani pola bentuk gelombang dibandingkan Forward-Fill yang hanya menahan/menarik angka lurus mendatar (*statis*). Oleh karena itu, mulai tahap ini, kita hanya akan menggunakan kolom **`suhu_interpolated`**.
+*Analisis Hasil Visual:* Coba perhatikan baik-baik. Interpolasi menarik garis lurus yang jauh lebih natural menjembatani pola bentuk gelombang dibandingkan Forward-Fill yang hanya menahan/menarik angka lurus mendatar (*statis*). Oleh karena itu, mulai tahap ini, kita hanya akan menggunakan kolom **`suhu_interpolated`**.  
 
 ### Langkah 4: Menghaluskan Noise Sinyal dengan Moving Average
 Data kita kini sudah sembuh total dari kekosongan (`NaN`). Namun, jika Anda perhatikan, gelombang sinusnya masih bergerigi sangat tajam bagaikan gergaji akibat *electrical noise*. Kita akan menyetrikanya (*smoothing*) dengan *Moving Average*.
