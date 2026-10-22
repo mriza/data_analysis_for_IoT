@@ -4,3 +4,12 @@ Referensi/*.doc
 Referensi/*.docx
 Referensi/*.epub
 Referensi/*.mobi
+
+# Mengabaikan naskah soal ujian dan kunci jawaban
+Naskah_Soal_UTS_Analisis_Data_IoT.pdf
+Naskah_Soal_UTS_Analisis_Data_IoT.md
+Naskah_Soal_*
+
+# Mengabaikan file lock sementara LibreOffice
+.~lock.*
+**/.*lock.*
